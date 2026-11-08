@@ -10,7 +10,7 @@ session you switch to.
 
 ## Install
 
-[Install Loaded skills](openchamber://extensions/install?url=https%3A%2F%2Fgithub.com%2Ftomzxcode%2Floaded-skills)
+[Install Loaded skills](openchamber://extensions/install?url=https%3A%2F%2Fgithub.com%2Ftomzxcode%2Fopenchamber-loaded-skills)
 
 Or add the repository URL in Settings, Extensions. Web and desktop only; VS
 Code and the phone load no extensions.
