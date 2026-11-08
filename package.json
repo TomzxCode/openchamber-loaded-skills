@@ -1,0 +1,31 @@
+{
+  "name": "loaded-skills",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "openchamber": {
+    "apiVersion": 1,
+    "engines": { "openchamber": ">=2.7.0" },
+    "id": "loaded-skills",
+    "name": "Loaded skills",
+    "icon": "book",
+    "contributes": {
+      "service": {
+        "entry": "service/main.js",
+        "runtime": "host",
+        "provides": ["opencode"]
+      },
+      "sessionEvents": {
+        "events": ["turn-started", "turn-finished", "session-created"]
+      },
+      "statusSection": {
+        "entry": "status/index.html",
+        "title": "Loaded skills",
+        "height": 28
+      }
+    }
+  },
+  "dependencies": {
+    "@openchamber/sdk": "2.7.0"
+  }
+}
